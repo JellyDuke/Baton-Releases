@@ -6,7 +6,7 @@
   <p>
     <a href="https://github.com/JellyDuke/Baton-Releases/releases/latest"><img alt="최신 버전" src="https://img.shields.io/github/v/release/JellyDuke/Baton-Releases?label=release&amp;color=68cdb0" /></a>
     <img alt="Windows x64" src="https://img.shields.io/badge/Windows-x64-242c36" />
-    <a href="LICENSE"><img alt="개인용 무료" src="https://img.shields.io/badge/license-personal%20use-68cdb0" /></a>
+    <a href="LICENSE"><img alt="개인·업무용 무료" src="https://img.shields.io/badge/license-free%20for%20personal%20%26%20work-68cdb0" /></a>
     <img alt="비공개 소스" src="https://img.shields.io/badge/source-private-242c36" />
   </p>
   <p><a href="https://github.com/JellyDuke/Baton-Releases/releases/latest"><strong>Windows 다운로드</strong></a> · <a href="#baton의-핵심">Baton의 핵심</a> · <a href="GETTING_STARTED.md">팀 구성하기</a> · <a href="LICENSE">사용 조건</a></p>
@@ -69,7 +69,7 @@ Baton은 **여러 AI를 각자의 역할과 스킬을 갖춘 팀으로 구성하
 
 긴 기록을 필요한 범위로 나눠 읽고, 파일·편집기·결과물을 필요할 때 불러오며, 사용자가 동시에 실행할 AI 작업 수를 조절합니다. 기록을 디스크에 보관하는 양과 화면·AI 호출에 쓰는 범위를 나누어 관리합니다.
 
-현재 `v0.2.0`의 Windows 설치 파일은 **약 6.1 MiB**입니다. WebView2 Runtime과 AI CLI는 별도이며, 설치 파일 크기는 실행 중 RAM 사용량과 다른 수치입니다. CPU·RAM·시작 시간과 다른 앱 대비 성능은 아직 실측하지 않았습니다.
+현재 `v0.2.1`의 Windows 설치 파일은 **약 7.4 MiB**입니다. WebView2 Runtime과 AI CLI는 별도이며, 설치 파일 크기는 실행 중 RAM 사용량과 다른 수치입니다. CPU·RAM·시작 시간과 다른 앱 대비 성능은 아직 실측하지 않았습니다.
 
 ## 한 번의 요청에서 파일 확인까지
 
@@ -138,17 +138,17 @@ Baton은 **여러 AI를 각자의 역할과 스킬을 갖춘 팀으로 구성하
 
 ## 현재 단계
 
-Baton은 초기 배포 버전입니다. 주요 기능은 구현되어 있지만 모든 CLI 조합과 실제 사용 환경의 동작을 보장하지는 않습니다. `v0.2.0`은 GitHub의 Windows 빌드·서명·공개 배포를 완료했습니다. 설치 후 UI 동작과 실제 AI 연결은 별도 사용자 확인 대상이며, CPU·RAM 수치는 아직 측정해 제시하지 않습니다.
+Baton은 초기 배포 버전입니다. 주요 기능은 구현되어 있지만 모든 CLI 조합과 실제 사용 환경의 동작을 보장하지는 않습니다. `v0.2.1`까지 GitHub의 Windows 빌드·서명·공개 배포를 완료했습니다. 설치 후 UI 동작과 실제 AI 연결은 별도 사용자 확인 대상이며, CPU·RAM 수치는 아직 측정해 제시하지 않습니다.
 
 macOS·Linux 설치본, 창 밖으로 분리하는 패널, 장기 기록·스냅샷의 자동 정리 기능은 현재 제공하지 않습니다.
 
 ## 문의와 사용 조건
 
+- 사용 조건: 개인·업무용 모두 무료입니다. 회사 업무·유상 의뢰·사업 목적에도 별도 허락이 필요하지 않습니다.
 - 오류·개선 제안: [Issues](https://github.com/JellyDuke/Baton-Releases/issues)
-- 업무용 사용 문의: 위 Issues에 사용 목적을 적어 JellyDuke에게 요청
-- [개인용 라이선스](LICENSE) · [저작권·브랜드](COPYRIGHT.md) · [제3자 라이선스 안내](THIRD_PARTY_NOTICES.md)
+- [사용 라이선스](LICENSE) · [저작권·브랜드](COPYRIGHT.md) · [제3자 라이선스 안내](THIRD_PARTY_NOTICES.md)
 
-공개 제보에는 토큰·비밀번호·개인 대화·업무 기밀을 넣지 마세요. 공식 다운로드 링크와 필요한 범위의 소개·오류 제보 화면은 공유할 수 있습니다. 보호되는 코드·자산의 추출과 복제, 다른 제품으로의 재사용·클론 제작은 허용하지 않습니다.
+공개 제보에는 토큰·비밀번호·개인 대화·업무 기밀을 넣지 마세요. 공식 다운로드 링크와 필요한 범위의 소개·오류 제보·사내 안내용 화면은 공유할 수 있습니다. 설치본을 조직 밖으로 재배포하거나, 보호되는 코드·자산을 추출·복제해 다른 제품에 재사용하거나 클론을 만드는 것은 허용하지 않습니다.
 
 ---
 
